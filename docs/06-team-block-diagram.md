@@ -16,7 +16,8 @@ _Italic Text_
 
 ## Images
 
-![PCB Board](<img width="1309" height="915" alt="image" src="https://github.com/user-attachments/assets/f4168809-9ad7-45ad-b6b8-a880d67b642b" />
+![PCB Board](<img width="1302" height="914" alt="image" src="https://github.com/user-attachments/assets/1635725e-87ba-4b8b-8c1a-bffb353760a6" />
+>
 
 
 ![dead bug circuit](<img width="637" height="416" alt="{3E89A480-116B-4404-A64E-40A77FE4E3C4}" src="https://github.com/user-attachments/assets/8403d2b1-0b24-4b2d-b45f-678afe495a7f" />
