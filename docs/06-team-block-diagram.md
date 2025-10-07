@@ -1,5 +1,5 @@
 ---
-title: Team Block Diagram
+title:  Block Diagram
 ---
 
 ## Introduction
