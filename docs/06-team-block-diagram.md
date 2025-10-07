@@ -18,7 +18,7 @@ _Italic Text_
 
 ![image caption](https://idealab.asu.edu/assets/images/research/jumper1.png)
 
-![dead bug circuit](<img width="670" height="484" alt="{F9AEE2C4-CBBE-4FC9-A4A7-77AB68894700}" src="https://github.com/user-attachments/assets/4c266fdd-79b6-4967-bc16-c0a549083441" />
+![dead bug circuit](<img width="637" height="416" alt="{3E89A480-116B-4404-A64E-40A77FE4E3C4}" src="https://github.com/user-attachments/assets/8403d2b1-0b24-4b2d-b45f-678afe495a7f" />
 ){style width:"350" height:"300;"}
 **Figure 2:** Early PCB working design
 
