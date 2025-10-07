@@ -4,9 +4,9 @@ title:  Block Diagram
 
 ## Introduction
 
-**Bold Text**
-_Italic Text_
-**_Bold and Italic Text_**
+The PCB board functions as a motor controller system that operates a DC motor through a PIC18F57Q43 Curiosity Nano microcontroller. The H-Bridge component FAN8100N receives motor control signals from the microcontroller to operate the M1N10FB11G motor. The microcontroller operates the motor through digital signals sent from pins RA1 and RD0 and RD1.
+
+The board features an input connector which enables future sensor integration and digital and analog signal reception. The PCB serves as a basic solution for embedded system developers to evaluate and manage motor operations through its straightforward design.
 
 ## Research Question
 
@@ -16,7 +16,7 @@ _Italic Text_
 
 ## Images
 
-![PCB Board](<img width="1302" height="914" alt="image" src="https://github.com/user-attachments/assets/1635725e-87ba-4b8b-8c1a-bffb353760a6" />
+[PCB Board]<img width="1302" height="914" alt="image" src="https://github.com/user-attachments/assets/1635725e-87ba-4b8b-8c1a-bffb353760a6" />
 >
 
 
