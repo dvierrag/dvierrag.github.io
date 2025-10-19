@@ -116,41 +116,6 @@ This budget lists worst-case current for each device, groups them by rail, and a
 - If using a 3S Li-ion pack, compute life with **worst-case average** current. For continuous stall, life is very short; use measured average instead.
 
 
-### Power Budget
-
-This system has a 12 V rail for the motor and a 5 V rail for logic. The motor uses **stall current** for worst case, and a **+25% margin** is added to size the regulator and source.
-
-#### Section A — Loads (worst case)
-
-| Subsystem | Voltage (V) | Max Current (mA) | Qty | Total (mA) |
-| --- | ---:| ---:| ---:| ---:|
-| PIC18F57Q43 Curiosity Nano | 5 | 50 | 1 | 50 |
-| H-Bridge Logic (FAN8100N) | 5 | 20 | 1 | 20 |
-| DC Motor (M1N10FB11G) — **STALL** | 12 | 2000 | 1 | 2000 |
-| Peripherals / LEDs | 5 | 25 | 1 | 25 |
-| **TOTAL** | — | — | — | **2095 mA** |
-
-#### Section B — Rails with +25% Safety Margin
-
-| Rail | Voltage | Load (mA) | +25% (mA) | Required Capacity |
-| --- | ---:| ---:| ---:| ---:|
-| Logic_5V | 5 | 95 | 119 | **≥120 mA** |
-| Motor_12V | 12 | 2000 | 2500 | **≥2.5 A** |
-
-#### Section C — Regulator
-**Choice:** **12 V → 5 V Buck Converter (F23J5V3A4S, 5 V / 3 A)**  
-**Why:** Enough current for logic; runs cooler than a linear regulator.
-
-#### Section D — Power Source
-**Choice:** **12 V Wall Adapter (≥3 A)**  
-**Why:** Covers motor stall plus the 5 V buck with margin.
-
-#### Section E — Battery (optional)
-A 3-cell Li-ion pack can work; estimate life using **average** current (stall is only brief).
-
-
-## Results
-
 1. Numbered Point 1
 1. Numbered Point 2
 1. Numbered Point 3
