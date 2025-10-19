@@ -115,32 +115,20 @@ This budget lists worst-case current for each device, groups them by rail, and a
 
 - If using a 3S Li-ion pack, compute life with **worst-case average** current. For continuous stall, life is very short; use measured average instead.
   
-## Results
+### Results
+The major electrical components for the motor control system were selected, compared, and justified based on compatibility, cost, and performance. The final design uses a 12 V brushed DC motor, an H-Bridge for direction control, and a 12 V → 5 V buck converter for logic power. A power budget was also completed using the motor’s stall current and a 25% safety margin to ensure the system can be powered safely and reliably. These selections support the goal of driving the motor forward and reverse using the PIC microcontroller.
 
-1. Numbered Point 1
-1. Numbered Point 2
-1. Numbered Point 3
+### Conclusions and Future Work
+The current design provides a solid foundation for motor control using the selected parts. The next step will be improving how the motor is controlled by adding PWM for smoother and adjustable speed, along with safety features such as current limits or automatic shutoff. Over time, the system can be expanded with more advanced features to improve motion control and flexibility.
 
-## Conclusions and Future Work
+### External Links
+- [PIC18F57Q43 Curiosity Nano Product Page](https://www.microchip.com/)
+- [H-Bridge Information](https://www.ti.com/)
+- [Buck Converter Information](https://www.digikey.com/)
 
-## External Links
-
-[example link to idealab](https://idealab.asu.edu)
-
-
-## Results
-
-1. Numbered Point 1
-1. Numbered Point 2
-1. Numbered Point 3
-
-## Conclusions and Future Work
-
-## External Links
-
-[example link to idealab](https://idealab.asu.edu)
-
-
-## References
+### References
+- Datasheets and product pages for the DC motor, H-Bridge, and buck converter
+- PIC18F57Q43 Curiosity Nano documentation
+- Power budget reference material from class
 
 
