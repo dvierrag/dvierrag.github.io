@@ -114,7 +114,8 @@ This budget lists worst-case current for each device, groups them by rail, and a
 #### Section E – Battery (optional)
 
 - If using a 3S Li-ion pack, compute life with **worst-case average** current. For continuous stall, life is very short; use measured average instead.
-
+  
+## Results
 
 1. Numbered Point 1
 1. Numbered Point 2
