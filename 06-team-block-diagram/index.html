@@ -571,6 +571,66 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#power-budget" class="md-nav__link">
+    <span class="md-ellipsis">
+      Power Budget
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Power Budget">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#section-a-loads-worst-case" class="md-nav__link">
+    <span class="md-ellipsis">
+      Section A – Loads (worst case)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#section-b-rails-with-25-margin" class="md-nav__link">
+    <span class="md-ellipsis">
+      Section B – Rails with +25% margin
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#section-c-regulator-5-v" class="md-nav__link">
+    <span class="md-ellipsis">
+      Section C – Regulator (5 V)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#section-d-external-power-source" class="md-nav__link">
+    <span class="md-ellipsis">
+      Section D – External Power Source
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#section-e-battery-optional" class="md-nav__link">
+    <span class="md-ellipsis">
+      Section E – Battery (optional)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -781,6 +841,66 @@
       H-Bridge (Motor Driver)
     </span>
   </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#power-budget" class="md-nav__link">
+    <span class="md-ellipsis">
+      Power Budget
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Power Budget">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#section-a-loads-worst-case" class="md-nav__link">
+    <span class="md-ellipsis">
+      Section A – Loads (worst case)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#section-b-rails-with-25-margin" class="md-nav__link">
+    <span class="md-ellipsis">
+      Section B – Rails with +25% margin
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#section-c-regulator-5-v" class="md-nav__link">
+    <span class="md-ellipsis">
+      Section C – Regulator (5 V)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#section-d-external-power-source" class="md-nav__link">
+    <span class="md-ellipsis">
+      Section D – External Power Source
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#section-e-battery-optional" class="md-nav__link">
+    <span class="md-ellipsis">
+      Section E – Battery (optional)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
         
@@ -1056,6 +1176,106 @@
 </table>
 <p><strong>Final Choice:</strong> 12 V, ≥2 A Wall Adapter<br>
 <strong>Rationale:</strong> Covers motor stall current with 25% system margin and keeps the lab setup simple and safe.</p>
+<h3 id="power-budget">Power Budget</h3>
+<p>This budget lists worst-case current for each device, groups them by rail, and adds a 25% safety margin.</p>
+<h4 id="section-a-loads-worst-case">Section A – Loads (worst case)</h4>
+<table>
+<thead>
+<tr>
+<th>Device / Subsystem</th>
+<th style="text-align: right;">Voltage (V)</th>
+<th style="text-align: right;">Max Current Each (mA)</th>
+<th style="text-align: right;">Qty</th>
+<th style="text-align: right;">Total (mA)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PIC18F57Q43 Curiosity Nano</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">50</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">50</td>
+</tr>
+<tr>
+<td>H-Bridge logic (FAN8100N)</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">20</td>
+</tr>
+<tr>
+<td>Peripherals / LEDs / misc.</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">25</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">25</td>
+</tr>
+<tr>
+<td><strong>DC Motor (stall)</strong></td>
+<td style="text-align: right;"><strong>12</strong></td>
+<td style="text-align: right;"><strong>2000</strong></td>
+<td style="text-align: right;"><strong>1</strong></td>
+<td style="text-align: right;"><strong>2000</strong></td>
+</tr>
+<tr>
+<td><strong>Totals</strong></td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;"><strong>2095</strong></td>
+</tr>
+</tbody>
+</table>
+<h4 id="section-b-rails-with-25-margin">Section B – Rails with +25% margin</h4>
+<table>
+<thead>
+<tr>
+<th>Rail</th>
+<th style="text-align: right;">Voltage</th>
+<th style="text-align: right;">Sum of Loads (mA)</th>
+<th style="text-align: right;">+25% Margin (mA)</th>
+<th style="text-align: right;"><strong>Required Capacity</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Logic_5V</strong></td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">95</td>
+<td style="text-align: right;"><strong>119</strong></td>
+<td style="text-align: right;"><strong>≥120 mA @ 5 V</strong></td>
+</tr>
+<tr>
+<td><strong>Motor_12V</strong></td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">2000</td>
+<td style="text-align: right;"><strong>2500</strong></td>
+<td style="text-align: right;"><strong>≥2.5 A @ 12 V</strong></td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>Note: The 5 V rail is generated from 12 V via a buck converter. At ~85% efficiency, 120 mA @ 5 V ≈ <strong>0.6 W</strong>, which draws about <strong>0.06 A</strong> from the 12 V source—small compared to the motor rail.</p>
+</blockquote>
+<h4 id="section-c-regulator-5-v">Section C – Regulator (5 V)</h4>
+<ul>
+<li><strong>Choice:</strong> 12 V → 5 V <strong>buck (step-down) converter</strong>, ≥<strong>2 A</strong> output, ~85–90% eff.  </li>
+<li><strong>Why:</strong> Plenty of headroom for MCU + logic and runs cool compared to a linear regulator.  </li>
+<li><strong>Note:</strong> Place 0.1 µF + 10 µF near MCU VCC; keep motor and logic grounds star-routed.</li>
+</ul>
+<h4 id="section-d-external-power-source">Section D – External Power Source</h4>
+<ul>
+<li><strong>Choice:</strong> <strong>12 V, 3 A</strong> regulated wall adapter.  </li>
+<li><strong>Why:</strong> Meets <strong>2.5 A</strong> (stall + margin) on the motor rail <strong>plus</strong> a small extra draw for the 5 V buck. 3 A gives comfortable headroom.</li>
+</ul>
+<h4 id="section-e-battery-optional">Section E – Battery (optional)</h4>
+<ul>
+<li>If using a 3S Li-ion pack, compute life with <strong>worst-case average</strong> current. For continuous stall, life is very short; use measured average instead.</li>
+</ul>
+<p><strong>Excel file:</strong><br>
+Upload your spreadsheet to <code>/static/</code> and link it here, e.g.:<br>
+<code>[Download Power Budget (Excel)](../static/Kalai_Power_Budget_Filled.xlsx)</code></p>
 <h2 id="results">Results</h2>
 <ol>
 <li>Numbered Point 1</li>
