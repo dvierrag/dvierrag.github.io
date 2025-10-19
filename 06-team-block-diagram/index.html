@@ -933,6 +933,129 @@
 </table>
 <p><strong>Final Choice:</strong> <em>FAN8100N</em><br>
 <strong>Rationale:</strong> Chosen for its protection features, size, and compatibility with 12 V system and PIC GPIO.</p>
+<p>DC Motor Selection</p>
+<table>
+<thead>
+<tr>
+<th>Solution</th>
+<th>Photo</th>
+<th>Link</th>
+<th>Unit Cost</th>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>**Option 1: M1N10FB11G</td>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/008c1915-1472-4211-b8f0-aabcb350dd6a" data-desc-position="bottom"><img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/008c1915-1472-4211-b8f0-aabcb350dd6a"></a></td>
+<td><a href="https://www.digikey.com/en/products/detail/nmb-technologies-corporation/M1N10FB11G/2417078?gclsrc=aw.ds&amp;gad_source=1&amp;gad_campaignid=20243136172&amp;gclid=Cj0KCQjw9czHBhCyARIsAFZlN8Ra9mbT1tIFcV5t-kcWw9YWB8xrca6-W-SrpTi-4TWKs_f_DMkQr_IaAn3xEALw_wcB">M1N10FB11G </a></td>
+<td>$3.19</td>
+<td>Matches 12 V rail; simple H-bridge drive; compact</td>
+<td>Verify <strong>stall current</strong> vs driver/supply; add EMI suppression</td>
+</tr>
+<tr>
+<td>**Option 2: 12 V Gearmotor w/ Encoder</td>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/cee27eba-58a6-4a45-8b22-06e35fe4e6c9" data-desc-position="bottom"><img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/cee27eba-58a6-4a45-8b22-06e35fe4e6c9"></a></td>
+<td><a href="https://www.digikey.com/en/products/detail/dfrobot/FIT0186/6588528?gclsrc=aw.ds&amp;gad_source=1&amp;gad_campaignid=20243136172&amp;gclid=Cj0KCQjw9czHBhCyARIsAFZlN8SwwRbIKz446RdhLvExD7Jq3hJFp_r5DxhS5wGWdU_l_QlIk-23MLoaAk6REALw_wcB">Gearmotor + encoder</a></td>
+<td>$16.50</td>
+<td>Higher torque; built-in position feedback</td>
+<td>More wiring; encoder logic-level compatibility; larger package</td>
+</tr>
+<tr>
+<td>**Option 3: 12 V Generic DC Motor (no gearbox)</td>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/e0264dbf-f6b2-42f6-9406-00820b16750d" data-desc-position="bottom"><img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/e0264dbf-f6b2-42f6-9406-00820b16750d"></a></td>
+<td><a href="https://www.digikey.com/en/products/detail/olimex-ltd/MG-12V-12RPM/22157942?gclsrc=aw.ds&amp;gad_source=1&amp;gad_campaignid=20243136172&amp;gclid=Cj0KCQjw9czHBhCyARIsAFZlN8T4poKcN0nC5ODQuPEy_bPangy6zy0kYFOLvjY0nSOWQ0ljkTPVw4EaAopSEALw_wcB">Generic 12 V DC motor</a></td>
+<td>$5.86</td>
+<td>Inexpensive; easy to source</td>
+<td>Lower torque; speed varies with load; no feedback</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Final Choice:</strong> M1N10FB11G<br>
+<strong>Rationale:</strong> Fits the 12 V system and mechanical space; provides adequate speed/torque for baseline demo; simplest electrical interface with the chosen H-bridge.</p>
+<p>Voltage Regulator Selection (5 V Logic Rail)</p>
+<table>
+<thead>
+<tr>
+<th>Solution</th>
+<th>Photo</th>
+<th>Link</th>
+<th>Unit Cost</th>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Option 1: 12 V → 5 V Buck Module (≥2 A)</strong></td>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../static/buck_12to5.jpg" data-desc-position="bottom"><img alt="photo" src="../static/buck_12to5.jpg"></a></td>
+<td><a href="#">Buck module</a></td>
+<td>$TBD</td>
+<td>High efficiency; low heat; compact; plenty of headroom</td>
+<td>Switching noise—add LC filter near MCU</td>
+</tr>
+<tr>
+<td><strong>Option 2: LM7805 Linear Regulator</strong></td>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../static/lm7805.jpg" data-desc-position="bottom"><img alt="photo" src="../static/lm7805.jpg"></a></td>
+<td><a href="#">LM7805</a></td>
+<td>$TBD</td>
+<td>Simple; low ripple</td>
+<td>Inefficient from 12→5 V; possible thermal issues</td>
+</tr>
+<tr>
+<td><strong>Option 3: Use Curiosity Nano USB 5 V</strong></td>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../static/usb_5v.jpg" data-desc-position="bottom"><img alt="photo" src="../static/usb_5v.jpg"></a></td>
+<td><a href="#">Board ref</a></td>
+<td>$0</td>
+<td>No extra hardware</td>
+<td>Limited current; possible ground loop with 12 V motor rail</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Final Choice:</strong> 12 V → 5 V Buck Converter (≥2 A)<br>
+<strong>Rationale:</strong> Supplies MCU + logic with margin while avoiding heat of a linear regulator when stepping down from 12 V.</p>
+<p>Power Source Selection (External)</p>
+<table>
+<thead>
+<tr>
+<th>Solution</th>
+<th>Photo</th>
+<th>Link</th>
+<th>Unit Cost</th>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Option 1: 12 V, 2–3 A Regulated Wall Adapter</strong></td>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../static/12v_wall_adapter.jpg" data-desc-position="bottom"><img alt="photo" src="../static/12v_wall_adapter.jpg"></a></td>
+<td><a href="#">12 V wall adapter</a></td>
+<td>$TBD</td>
+<td>Simple; safe; readily available; meets stall + margin</td>
+<td>Tethered; not portable</td>
+</tr>
+<tr>
+<td><strong>Option 2: 3S Li-ion Pack + BMS</strong></td>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../static/3s_liion.jpg" data-desc-position="bottom"><img alt="photo" src="../static/3s_liion.jpg"></a></td>
+<td><a href="#">3S Li-ion + BMS</a></td>
+<td>$TBD</td>
+<td>Portable demo; realistic product scenario</td>
+<td>Requires charger/BMS; safety considerations</td>
+</tr>
+<tr>
+<td><strong>Option 3: Bench Power Supply</strong></td>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../static/bench_psu.jpg" data-desc-position="bottom"><img alt="photo" src="../static/bench_psu.jpg"></a></td>
+<td><a href="#">Bench PSU</a></td>
+<td>$TBD</td>
+<td>Adjustable; current limit for bring-up</td>
+<td>Not a final product power source</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Final Choice:</strong> 12 V, ≥2 A Wall Adapter<br>
+<strong>Rationale:</strong> Covers motor stall current with 25% system margin and keeps the lab setup simple and safe.</p>
 <h2 id="results">Results</h2>
 <ol>
 <li>Numbered Point 1</li>
