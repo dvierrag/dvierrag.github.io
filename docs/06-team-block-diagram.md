@@ -104,7 +104,7 @@ This budget lists worst-case current for each device, groups them by rail, and a
 
 - **Choice:** 12 V → 5 V **buck (step-down) converter**, ≥**2 A** output, ~85–90% eff.  
 - **Why:** Plenty of headroom for MCU + logic and runs cool compared to a linear regulator.  
-- **Note:** Place 0.1 µF + 10 µF near MCU VCC; keep motor and logic grounds star-routed.
+- **Note:** Place 0.1 µF + 10 µF near MCU VCC, keep motor and logic grounds star-routed.
 
 #### Section D – External Power Source
 
