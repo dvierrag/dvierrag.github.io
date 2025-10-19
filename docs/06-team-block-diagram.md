@@ -26,10 +26,14 @@ The board features an input connector which enables future sensor integration an
 
 
 ![showcase](ImageShowcase.png)
-|                   requirement / need |             Link              | Unit Cost       |Pros      |  Cons                                             |
-| -----------------------------------: | :------------------------------: | --------------------------------------------------------------------------- |
-| product provides clear notifications |              buzzer              |               |          |                                                  |
-| product provides clear notifications |             speaker              |               |          |                                                  |
+
+
+| Solution | Pros | Cons |
+|----------|------|------|
+| Option 1 | pro text here | con text here |
+| Option 2 | pro text here | con text here |
+| Option 3 | pro text here | con text here |
+
 
 ## Results
 
