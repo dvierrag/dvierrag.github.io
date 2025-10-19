@@ -599,33 +599,6 @@
   
 </li>
         
-          <li class="md-nav__item">
-  <a href="#section-c-regulator-5-v" class="md-nav__link">
-    <span class="md-ellipsis">
-      Section C – Regulator (5 V)
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#section-d-external-power-source" class="md-nav__link">
-    <span class="md-ellipsis">
-      Section D – External Power Source
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#section-e-battery-optional" class="md-nav__link">
-    <span class="md-ellipsis">
-      Section E – Battery (optional)
-    </span>
-  </a>
-  
-</li>
-        
       </ul>
     </nav>
   
@@ -867,33 +840,6 @@
   <a href="#section-b-rails-with-25-margin" class="md-nav__link">
     <span class="md-ellipsis">
       Section B – Rails with +25% margin
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#section-c-regulator-5-v" class="md-nav__link">
-    <span class="md-ellipsis">
-      Section C – Regulator (5 V)
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#section-d-external-power-source" class="md-nav__link">
-    <span class="md-ellipsis">
-      Section D – External Power Source
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#section-e-battery-optional" class="md-nav__link">
-    <span class="md-ellipsis">
-      Section E – Battery (optional)
     </span>
   </a>
   
@@ -1258,24 +1204,6 @@
 <blockquote>
 <p>Note: The 5 V rail is generated from 12 V via a buck converter. At ~85% efficiency, 120 mA @ 5 V ≈ <strong>0.6 W</strong>, which draws about <strong>0.06 A</strong> from the 12 V source—small compared to the motor rail.</p>
 </blockquote>
-<h4 id="section-c-regulator-5-v">Section C – Regulator (5 V)</h4>
-<ul>
-<li><strong>Choice:</strong> 12 V → 5 V <strong>buck (step-down) converter</strong>, ≥<strong>2 A</strong> output, ~85–90% eff.  </li>
-<li><strong>Why:</strong> Plenty of headroom for MCU + logic and runs cool compared to a linear regulator.  </li>
-<li><strong>Note:</strong> Place 0.1 µF + 10 µF near MCU VCC; keep motor and logic grounds star-routed.</li>
-</ul>
-<h4 id="section-d-external-power-source">Section D – External Power Source</h4>
-<ul>
-<li><strong>Choice:</strong> <strong>12 V, 3 A</strong> regulated wall adapter.  </li>
-<li><strong>Why:</strong> Meets <strong>2.5 A</strong> (stall + margin) on the motor rail <strong>plus</strong> a small extra draw for the 5 V buck. 3 A gives comfortable headroom.</li>
-</ul>
-<h4 id="section-e-battery-optional">Section E – Battery (optional)</h4>
-<ul>
-<li>If using a 3S Li-ion pack, compute life with <strong>worst-case average</strong> current. For continuous stall, life is very short; use measured average instead.</li>
-</ul>
-<p><strong>Excel file:</strong><br>
-Upload your spreadsheet to <code>/static/</code> and link it here, e.g.:<br>
-<code>[Download Power Budget (Excel)](../static/Kalai_Power_Budget_Filled.xlsx)</code></p>
 <h2 id="results">Results</h2>
 <ol>
 <li>Numbered Point 1</li>
