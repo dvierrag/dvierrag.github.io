@@ -77,6 +77,47 @@ Power Source Selection (External)
 **Rationale:** Covers motor stall current with 25% system margin and keeps the lab setup simple and safe.
 
 
+### Power Budget
+
+This budget lists worst-case current for each device, groups them by rail, and adds a 25% safety margin.
+
+#### Section A – Loads (worst case)
+
+| Device / Subsystem | Voltage (V) | Max Current Each (mA) | Qty | Total (mA) |
+| --- | ---:| ---:| ---:| ---:|
+| PIC18F57Q43 Curiosity Nano | 5 | 50 | 1 | 50 |
+| H-Bridge logic (FAN8100N) | 5 | 20 | 1 | 20 |
+| Peripherals / LEDs / misc. | 5 | 25 | 1 | 25 |
+| **DC Motor (stall)** | **12** | **2000** | **1** | **2000** |
+| **Totals** | — | — | — | **2095** |
+
+#### Section B – Rails with +25% margin
+
+| Rail | Voltage | Sum of Loads (mA) | +25% Margin (mA) | **Required Capacity** |
+| --- | ---:| ---:| ---:| ---:|
+| **Logic_5V** | 5 | 95 | **119** | **≥120 mA @ 5 V** |
+| **Motor_12V** | 12 | 2000 | **2500** | **≥2.5 A @ 12 V** |
+
+> Note: The 5 V rail is generated from 12 V via a buck converter. At ~85% efficiency, 120 mA @ 5 V ≈ **0.6 W**, which draws about **0.06 A** from the 12 V source—small compared to the motor rail.
+
+#### Section C – Regulator (5 V)
+
+- **Choice:** 12 V → 5 V **buck (step-down) converter**, ≥**2 A** output, ~85–90% eff.  
+- **Why:** Plenty of headroom for MCU + logic and runs cool compared to a linear regulator.  
+- **Note:** Place 0.1 µF + 10 µF near MCU VCC; keep motor and logic grounds star-routed.
+
+#### Section D – External Power Source
+
+- **Choice:** **12 V, 3 A** regulated wall adapter.  
+- **Why:** Meets **2.5 A** (stall + margin) on the motor rail **plus** a small extra draw for the 5 V buck. 3 A gives comfortable headroom.
+
+#### Section E – Battery (optional)
+
+- If using a 3S Li-ion pack, compute life with **worst-case average** current. For continuous stall, life is very short; use measured average instead.
+
+**Excel file:**  
+Upload your spreadsheet to `/static/` and link it here, e.g.:  
+`[Download Power Budget (Excel)](../static/Kalai_Power_Budget_Filled.xlsx)`
 
 
 
