@@ -28,11 +28,17 @@ The board features an input connector which enables future sensor integration an
 ![showcase](ImageShowcase.png)
 
 
-| Solution | Pros | Cons |
-|----------|------|------|
-| Option 1 | pro text here | con text here |
-| Option 2 | pro text here | con text here |
-| Option 3 | pro text here | con text here |
+### H-Bridge (Motor Driver)
+
+| Solution | Photo | Link | Unit Cost | Pros | Cons |
+|----------|--------|--------|-----------|-------|-------|
+| Option 1: FAN8100N | ![photo](../static/fan8100n.jpg) | [FAN8100N Datasheet](https://www.onsemi.com/) | $X.XX | Compact, logic-level, built-in protection | Must verify continuous current |
+| Option 2: DRV8871 | ![photo](../static/drv8871.jpg) | [DRV8871 Datasheet](https://www.ti.com/) | $X.XX | Current limiting & thermal protection | Slightly more wiring |
+| Option 3: L298N | ![photo](../static/l298.jpg) | [L298N Module](https://www.robotshop.com/) | $X.XX | Easy to use, widely available | Inefficient, large voltage drop |
+
+**Final Choice:** *FAN8100N*  
+**Rationale:** Chosen for its protection features, size, and compatibility with 12 V system and PIC GPIO.
+
 
 
 ## Results
