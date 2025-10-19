@@ -32,7 +32,7 @@ The board features an input connector which enables future sensor integration an
 
 | Solution | Photo | Link | Unit Cost | Pros | Cons |
 |----------|--------|--------|-----------|-------|-------|
-| Option 1: FAN8100N |(<img width="640" height="640" alt="image" src="https://github.com/user-attachments/assets/31aeebd0-2281-4b88-b4e4-ec15abd9f2c3" /> |[FAN8100N Datasheet](https://www.onsemi.com/](https://www.unikeyic.com/?campaignid=22783272917&adgroupid=183048181420&feeditemid&targetid=kwd-296668624245&device=c&creative=763224061586&keyword=electronic%20components%20online%20market&gclid=Cj0KCQjw9czHBhCyARIsAFZlN8R8Vcb45DylHHPIODkKHT1TnOQzkQvjbgJ_wIkDguQowdL8BwksVncaArG3EALw_wcB&gad_source=1&gad_campaignid=22783272917))| $X.XX | Compact, logic-level, built-in protection | Must verify continuous current |
+| Option 1: FAN8100N |(<img width="640" height="640" alt="image" src="https://github.com/user-attachments/assets/31aeebd0-2281-4b88-b4e4-ec15abd9f2c3" /> |[FAN8100N Datasheet](https://www.unikeyic.com/?campaignid=22783272917&adgroupid=183048181420&feeditemid&targetid=kwd-296668624245&device=c&creative=763224061586&keyword=electronic%20components%20online%20market&gclid=Cj0KCQjw9czHBhCyARIsAFZlN8R8Vcb45DylHHPIODkKHT1TnOQzkQvjbgJ_wIkDguQowdL8BwksVncaArG3EALw_wcB&gad_source=1&gad_campaignid=22783272917)| $X.XX | Compact, logic-level, built-in protection | Must verify continuous current |
 | Option 2: DRV8871 | ![photo](../static/drv8871.jpg) | [DRV8871 Datasheet](https://www.ti.com/) | $X.XX | Current limiting & thermal protection | Slightly more wiring |
 | Option 3: L298N | ![photo](../static/l298.jpg) | [L298N Module](https://www.robotshop.com/) | $X.XX | Easy to use, widely available | Inefficient, large voltage drop |
 
