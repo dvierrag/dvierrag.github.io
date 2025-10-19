@@ -100,21 +100,20 @@ This budget lists worst-case current for each device, groups them by rail, and a
 
 > Note: The 5 V rail is generated from 12 V via a buck converter. At ~85% efficiency, 120 mA @ 5 V ≈ **0.6 W**, which draws about **0.06 A** from the 12 V source—small compared to the motor rail.
 
+#### Section C – Regulator (5 V)
 
-Section C – Regulator (5 V)
+- **Choice:** 12 V → 5 V **buck (step-down) converter**, ≥**2 A** output, ~85–90% eff.  
+- **Why:** Plenty of headroom for MCU + logic and runs cool compared to a linear regulator.  
+- **Note:** Place 0.1 µF + 10 µF near MCU VCC; keep motor and logic grounds star-routed.
 
-Choice: 12 V → 5 V Buck Converter (F23J5V3A4S, 5 V/3 A)
-Why: Plenty of headroom for the ~120 mA logic rail; runs cool; compact. Add a 0.1 µF + 10 µF near the MCU and keep grounds short.
+#### Section D – External Power Source
 
-Section D – External Power Source
+- **Choice:** **12 V, 3 A** regulated wall adapter.  
+- **Why:** Meets **2.5 A** (stall + margin) on the motor rail **plus** a small extra draw for the 5 V buck. 3 A gives comfortable headroom.
 
-Choice: 12 V regulated wall adapter, ≥3 A
-Why: Covers 2.5 A worst-case demand with margin and also feeds the 5 V buck.
+#### Section E – Battery (optional)
 
-Section E – Battery (optional)
-
-If using a 3S Li-ion pack, compute life with average current, not stall (stall is only for brief events).
-
+- If using a 3S Li-ion pack, compute life with **worst-case average** current. For continuous stall, life is very short; use measured average instead.
 
 
 
