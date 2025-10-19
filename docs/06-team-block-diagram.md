@@ -26,8 +26,10 @@ The board features an input connector which enables future sensor integration an
 
 
 ![showcase](ImageShowcase.png)
-**Figure 3:** Innovation Showcase Spring '25, where the products were a STEM-themed display that demonstrates a single scientific/engineering concept with the intended user of K-12 students interested in learning about science, technology, engineering, or math.
-
+|                   requirement / need |             Link              | Unit Cost       |Pros      |  Cons                                             |
+| -----------------------------------: | :------------------------------: | --------------------------------------------------------------------------- |
+| product provides clear notifications |              buzzer              |               |          |                                                  |
+| product provides clear notifications |             speaker              |               |          |                                                  |
 
 ## Results
 
