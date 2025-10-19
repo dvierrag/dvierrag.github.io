@@ -109,7 +109,7 @@ This budget lists worst-case current for each device, groups them by rail, and a
 #### Section D – External Power Source
 
 - **Choice:** **12 V, 3 A** regulated wall adapter.  
-- **Why:** Meets **2.5 A** (stall + margin) on the motor rail **plus** a small extra draw for the 5 V buck. 3 A gives comfortable headroom.
+- **Why:** Meets **2.5 A** (stall + margin) on the motor rail plus a small extra draw for the 5 V buck. 3 A gives comfortable headroom.
 
 #### Section E – Battery (optional)
 
