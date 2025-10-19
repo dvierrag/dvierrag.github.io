@@ -34,7 +34,7 @@ The board features an input connector which enables future sensor integration an
 |----------|--------|--------|-----------|-------|-------|
 | Option 1: FAN8100N |(<img width="640" height="640" alt="image" src="https://github.com/user-attachments/assets/31aeebd0-2281-4b88-b4e4-ec15abd9f2c3" /> |[FAN8100N Datasheet](https://www.unikeyic.com/?campaignid=22783272917&adgroupid=183048181420&feeditemid&targetid=kwd-296668624245&device=c&creative=763224061586&keyword=electronic%20components%20online%20market&gclid=Cj0KCQjw9czHBhCyARIsAFZlN8R8Vcb45DylHHPIODkKHT1TnOQzkQvjbgJ_wIkDguQowdL8BwksVncaArG3EALw_wcB&gad_source=1&gad_campaignid=22783272917)| $0.96 | Compact, logic-level, built-in protection | Must verify continuous current |
 | Option 2: DRV8871 | (<img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/51f718df-287c-4fcd-a85c-5954088572bb" />
- |[DRV8871 Datasheet]([https://www.ti.com/](https://www.digikey.com/en/products/detail/texas-instruments/DRV8871DDARQ1/8347710?gclsrc=aw.ds&gad_source=1&gad_campaignid=20228387720&gclid=Cj0KCQjw9czHBhCyARIsAFZlN8S4qVNAMozf3Hh7ttzLuEbMeZ7Pt4pGIJsJqOqV7SmrHC9xeCaIfPQaAqlREALw_wcB)| $3.82 | Current limiting & thermal protection | Slightly more wiring |
+ |[DRV8871 Datasheet](https://www.digikey.com/en/products/detail/texas-instruments/DRV8871DDARQ1/8347710?gclsrc=aw.ds&gad_source=1&gad_campaignid=20228387720&gclid=Cj0KCQjw9czHBhCyARIsAFZlN8S4qVNAMozf3Hh7ttzLuEbMeZ7Pt4pGIJsJqOqV7SmrHC9xeCaIfPQaAqlREALw_wcB)| $3.82 | Current limiting & thermal protection | Slightly more wiring |
 | Option 3: L298N | ![photo](../static/l298.jpg) | [L298N Module](https://www.robotshop.com/) | $X.XX | Easy to use, widely available | Inefficient, large voltage drop |
 
 **Final Choice:** *FAN8100N*  
