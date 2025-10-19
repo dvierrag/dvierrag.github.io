@@ -69,9 +69,9 @@ Power Source Selection (External)
 
 | Solution | Photo | Link | Unit Cost | Pros | Cons |
 | --- | --- | --- | --- | --- | --- |
-| **Option 1: 12 V, 2–3 A Regulated Wall Adapter |<img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/5851fdef-140f-4222-bd2b-039c803c37e8" />| [12 V wall adapter](https://www.digikey.com/en/products/detail/triad-magnetics/WSU120-0700-R/3094980?gclsrc=aw.ds&gad_source=1&gad_campaignid=20232005509&gclid=Cj0KCQjw9czHBhCyARIsAFZlN8TFVvj7PSoSBD8DLiF1ic46F7QcSOPegxfym53Tw6c9u2Tg71CVW9YaAqR-EALw_wcB) | $7.35 | Simple; safe, readily available, meets stall + margin |  Tethered, not portable |
-| **Option 2: 3S Li-ion Pack + BMS |<img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/1a0730f2-8d90-4031-8653-78b35962fdd8" />| [3S Li-ion + BMS](https://www.digikey.com/en/products/detail/dantona-industries/L37A52-2-1-3WA3/13692679?gclsrc=aw.ds&gad_source=1&gad_campaignid=20243136172&gclid=Cj0KCQjw9czHBhCyARIsAFZlN8SXKbI0gilJBMLqTbNlkLfi3v3ZwIE8SngqtwPa-J6yf74CLZ_FIFgaAqNpEALw_wcB) | $17.87 | Portable, real-world use| Requires charger/BMS, safety considerations 
-| **Option 3: Bench Power Supply |<img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/5ac56556-54f3-4997-9971-5f9326fa019a" /> | [Bench PSU](https://www.digikey.com/en/products/detail/phoenix-contact/1394764/21848912?gclsrc=aw.ds&gad_source=1&gad_campaignid=20232005509&gclid=Cj0KCQjw9czHBhCyARIsAFZlN8SDCR366KwBJntPq899KcohlzfRSOIit_A_IDm5aIcjnehgYqWUwAgaAlmnEALw_wcB) | $18.19| Adjustable, current limit | Not a final product power source |
+| Option 1: 12 V, 2–3 A Regulated Wall Adapter |<img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/5851fdef-140f-4222-bd2b-039c803c37e8" />| [12 V wall adapter](https://www.digikey.com/en/products/detail/triad-magnetics/WSU120-0700-R/3094980?gclsrc=aw.ds&gad_source=1&gad_campaignid=20232005509&gclid=Cj0KCQjw9czHBhCyARIsAFZlN8TFVvj7PSoSBD8DLiF1ic46F7QcSOPegxfym53Tw6c9u2Tg71CVW9YaAqR-EALw_wcB) | $7.35 | Simple; safe, readily available, meets stall + margin |  Tethered, not portable |
+| Option 2: 3S Li-ion Pack + BMS |<img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/1a0730f2-8d90-4031-8653-78b35962fdd8" />| [3S Li-ion + BMS](https://www.digikey.com/en/products/detail/dantona-industries/L37A52-2-1-3WA3/13692679?gclsrc=aw.ds&gad_source=1&gad_campaignid=20243136172&gclid=Cj0KCQjw9czHBhCyARIsAFZlN8SXKbI0gilJBMLqTbNlkLfi3v3ZwIE8SngqtwPa-J6yf74CLZ_FIFgaAqNpEALw_wcB) | $17.87 | Portable, real-world use| Requires charger/BMS, safety considerations 
+| Option 3: Bench Power Supply |<img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/5ac56556-54f3-4997-9971-5f9326fa019a" /> | [Bench PSU](https://www.digikey.com/en/products/detail/phoenix-contact/1394764/21848912?gclsrc=aw.ds&gad_source=1&gad_campaignid=20232005509&gclid=Cj0KCQjw9czHBhCyARIsAFZlN8SDCR366KwBJntPq899KcohlzfRSOIit_A_IDm5aIcjnehgYqWUwAgaAlmnEALw_wcB) | $18.19| Adjustable, current limit | Not a final product power source |
 
 **Final Choice:** 12 V, ≥2 A Wall Adapter  
 **Rationale:** Covers motor stall current with 25% system margin and keeps the lab setup simple and safe.
@@ -122,7 +122,7 @@ The major electrical components for the motor control system were selected, comp
 The current design provides a solid foundation for motor control using the selected parts. The next step will be improving how the motor is controlled by adding PWM for smoother and adjustable speed, along with safety features such as current limits or automatic shutoff. Over time, the system can be expanded with more advanced features to improve motion control and flexibility.
 
 ### External Links
-- [PIC18F57Q43 Curiosity Nano Product Page](https://www.microchip.com/)
+- [PIC18F57Q43 Curiosity Nano Product Page](https://www.microchip.com/en-us/development-tool/dm164150)
 - [H-Bridge Information](https://www.ti.com/)
 - [Buck Converter Information](https://www.digikey.com/)
 
