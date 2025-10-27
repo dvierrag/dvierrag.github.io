@@ -16,12 +16,11 @@ The board features an input connector which enables future sensor integration an
 
 ## Images
 
-[PCB Board]
-<img width="572" height="416" alt="image" src="https://github.com/user-attachments/assets/dd1d9998-5557-4cad-b6a7-cc925486451d" />
+[PCB Board]<img width="572" height="416" alt="image" src="https://github.com/user-attachments/assets/dd1d9998-5557-4cad-b6a7-cc925486451d" />
 
 
 
-![dead bug circuit]<img width="2190" height="1512" alt="image" src="https://github.com/user-attachments/assets/9efacbe0-696a-4893-9e0a-123cc0fbeea4" />
+]<img width="2190" height="1512" alt="image" src="https://github.com/user-attachments/assets/9efacbe0-696a-4893-9e0a-123cc0fbeea4" />
 **Figure 2:** Early PCB working design
 
 
