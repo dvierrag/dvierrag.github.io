@@ -2,6 +2,8 @@
 BOM
 ---
 
+Overview
+
 **Bill of Materials Example (Table)**
 
 | Line # | Component Name                     | Manufacturer Part #  | Digi-Key Part #             | Qty |  Unit Cost |  Ext. Cost | Link                                                                                                                                                                                     |
