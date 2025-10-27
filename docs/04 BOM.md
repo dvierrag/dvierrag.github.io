@@ -2,7 +2,7 @@
 BOM
 ---
 
-Overview
+**Overview**
 
 **Bill of Materials Example (Table)**
 
