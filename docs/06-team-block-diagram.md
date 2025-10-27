@@ -29,7 +29,7 @@ The board features an input connector which enables future sensor integration an
 **Figure 2:** Early PCB working design
 
 
-![showcase](ImageShowcase.png)
+
 
 
 ### H-Bridge (Motor Driver)
