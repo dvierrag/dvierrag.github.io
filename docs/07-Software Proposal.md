@@ -2,7 +2,7 @@
 Power Budget
 ---
 
-## Overview
+Overview
 
 <img width="935" height="465" alt="image" src="https://github.com/user-attachments/assets/7d9b6ecd-13c2-4044-97be-683876d18898" />
 
