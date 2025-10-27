@@ -31,6 +31,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://embedded-systems-design.github.io/EGR304TeamTemplate/Block%20Diagram/</loc>
+         <lastmod>2025-10-27</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://embedded-systems-design.github.io/EGR304TeamTemplate/Appendix/</loc>
          <lastmod>2025-10-27</lastmod>
          <changefreq>daily</changefreq>
