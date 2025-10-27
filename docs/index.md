@@ -5,9 +5,9 @@ tags:
 - tag2
 ---
 <center>
-<font size="8">Project Name<br>
+<font size="8">Door Sensor<br>
 <font size="5">Team 209<br>
-**Submission: September, 03, 2025**<br>
+**Submission: December, ##, 2025**<br>
 Fall and 2025<br>
 <font size="4">Arizona State University<br>
 **EGR 304**<br>
