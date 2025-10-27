@@ -1,18 +1,20 @@
 ---
 title: Team Organization
-tags:
-- tag1
-- tag2
----
+## Introduction
 
-## Team Charter
+The PCB board functions as a motor controller system that operates a DC motor through a PIC18F57Q43 Curiosity Nano microcontroller. The H-Bridge component FAN8100N receives motor control signals from the microcontroller to operate the M1N10FB11G motor. The microcontroller operates the motor through digital signals sent from pins RA1 and RD0 and RD1.
 
-From the ... which can be reviewed in ["Appendix: Team Organization"](https://embedded-systems-design.github.io/EGR304TeamTemplate/Appendix/App-Team-Org/), the team's charter formed to be (showing ASU's Charter as an Example):
+The board features an input connector which enables future sensor integration and digital and analog signal reception. The PCB serves as a basic solution for embedded system developers to evaluate and manage motor operations through its straightforward design.
 
-> "ASU is a comprehensive public research university, measured not by whom it excludes, but by whom it includes and how they succeed; advancing research and discovery of public value; and assuming fundamental responsibility for the economic, social, cultural and overall health of the communities it serves." (ASU's Charter)
+## Research Question
 
-## Product Mission Statement
+* Bullet Point 1
+* Bullet Point 2
+* Bullet Point 3
 
-Describe the distilled purpose, function, or reason for your product to exist. From this form a team mission statement. Google's mission statement is:
+## Images
 
- > "Google's mission is to organize the world's information and make it universally accessible and useful."
+[PCB Board]
+
+
+<img width="572" height="416" alt="image" src="https://github.com/user-attachments/assets/fb557ad8-a2e5-4c17-b2f1-60cf27dbe371" />
