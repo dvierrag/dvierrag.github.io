@@ -16,7 +16,7 @@ Dr.Nichols<br>
 
 </center>
 
-## Team Introduction
+##  Introduction
 > This will be updated as part of the preparation for the External Review.<br>
 >    * This needs to be updated to reflect a team introduction.<br>
 >    * Content should also help an unfamiliar reader navigate to areas of interest.
@@ -26,7 +26,7 @@ Dr.Nichols<br>
 
 | **Team Member**        |**Ind Datasheet Links** |
 | ---------------------- | -----------------------|
-| Name #1                | [JohnDoe.GitHub](https://embedded-systems-design.github.io/EGR304DataSheetTemplate/) |
-| Name #2                | link |
-| Name #3                | link |
+| Andrew Imoukhuede      | [Aimoukhu.github.io](https://Aimoukhu.github.io)  |
+| Bryce Weber            | [CottageFox.github.io](https://CottageFox.github.io) |
+| Matthew Sanderson      | Msande84.github.io](https://msande84.github.io) |
 | Name #4                | link |
