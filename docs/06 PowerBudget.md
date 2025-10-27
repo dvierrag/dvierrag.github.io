@@ -16,6 +16,6 @@ A power budget serves as a planning document which details voltage and current r
 The current design provides a solid foundation for motor control using the selected parts. The next step will be improving how the motor is controlled by adding PWM for smoother and adjustable speed, along with safety features such as current limits or automatic shutoff. Over time, the system can be expanded with more advanced features to improve motion control and flexibility.
 
 Resouces 
-Thw Power Bdget as a PDF [here] (<https://arizonastateu-my.sharepoint.com/:x:/r/personal/dvierrag_sundevils_asu_edu/_layouts/15/Doc.aspx?sourcedoc=%7BEDBEF2BF-1E62-4F73-BBFD-485AC8DBE303%7D&file=Power_Budget_FINAL_RailsOnly.xlsx&action=default&mobileredirect=true&wdOrigin=WAC.EXCEL.HOME-BUTTON%2CAPPHOME-WEB.BANNER.UPLOAD&wdPreviousSession=6df89f25-49ef-4870-a3d3-46ac38856640&wdPreviousSessionSrc=AppHomeWeb&ct=1761586995437>),
+Thw Power Bdget as a PDF [here] (,
 and a Microsft Excel Sheet here
-[FAN8100N Datasheet](https://www.digikey.com/en/products/detail/rochester-electronics-llc/FAN8100N/11558200?gclsrc=aw.ds&gad_source=1&gad_campaignid=120565755&gclid=Cj0KCQjw9czHBhCyARIsAFZlN8Td83C8Z8gdR38_rkx56qkHiMYeCuAWATtnKyPa6cvx9s9slA38YgAaArcOEALw_wcB)
+[FAN8100N Datasheet](<https://arizonastateu-my.sharepoint.com/:x:/r/personal/dvierrag_sundevils_asu_edu/_layouts/15/Doc.aspx?sourcedoc=%7BEDBEF2BF-1E62-4F73-BBFD-485AC8DBE303%7D&file=Power_Budget_FINAL_RailsOnly.xlsx&action=default&mobileredirect=true&wdOrigin=WAC.EXCEL.HOME-BUTTON%2CAPPHOME-WEB.BANNER.UPLOAD&wdPreviousSession=6df89f25-49ef-4870-a3d3-46ac38856640&wdPreviousSessionSrc=AppHomeWeb&ct=1761586995437>)
