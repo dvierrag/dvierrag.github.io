@@ -1,5 +1,5 @@
 ---
-###Component Selection Example
+##Component Selection Example
 
  H-Bridge (Motor Driver)
 
