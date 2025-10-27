@@ -1,4 +1,4 @@
---- Component Selection Example
+Component Selection Example
 ### H-Bridge (Motor Driver)
 
 | Solution | Photo | Link | Unit Cost | Pros | Cons |
