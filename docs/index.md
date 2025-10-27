@@ -26,4 +26,4 @@ The Door Sensor System Project welcomes you to its website. The website presents
 | Andrew Imoukhuede      | [Aimoukhu.github.io](https://Aimoukhu.github.io)  |
 | Bryce Weber            | [CottageFox.github.io](https://CottageFox.github.io) |
 | Matthew Sanderson      | [Msande84.github.io](https://msande84.github.io) |
-| Name #4                | link |
+|Dylan Vierra-Guillermo  |
