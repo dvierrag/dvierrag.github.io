@@ -1,5 +1,5 @@
 ---
-title: Team Organization
+Overview
 ## Introduction
 
 The PCB board functions as a motor controller system that operates a DC motor through a PIC18F57Q43 Curiosity Nano microcontroller. The H-Bridge component FAN8100N receives motor control signals from the microcontroller to operate the M1N10FB11G motor. The microcontroller operates the motor through digital signals sent from pins RA1 and RD0 and RD1.
