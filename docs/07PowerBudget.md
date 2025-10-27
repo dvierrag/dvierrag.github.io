@@ -11,4 +11,6 @@ A power budget serves as a planning document which details voltage and current r
 <img width="916" height="253" alt="image" src="https://github.com/user-attachments/assets/05785a90-7b96-47ca-b750-ae5378fb45c5" />
 <img width="910" height="43" alt="image" src="https://github.com/user-attachments/assets/cc002367-1cd8-4581-afbf-ecfa1a2d6e66" />
 
+**Conclusion**
+The current design provides a solid foundation for motor control using the selected parts. The next step will be improving how the motor is controlled by adding PWM for smoother and adjustable speed, along with safety features such as current limits or automatic shutoff. Over time, the system can be expanded with more advanced features to improve motion control and flexibility.
 
