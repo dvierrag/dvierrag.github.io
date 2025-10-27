@@ -16,8 +16,8 @@ The board features an input connector which enables future sensor integration an
 
 ## Images
 
-[PCB Board]<img width="1302" height="914" alt="image" src="https://github.com/user-attachments/assets/1635725e-87ba-4b8b-8c1a-bffb353760a6" />
->
+[PCB Board]<<img width="572" height="416" alt="image" src="https://github.com/user-attachments/assets/dd1d9998-5557-4cad-b6a7-cc925486451d" />
+
 
 
 ![dead bug circuit]<img width="2190" height="1512" alt="image" src="https://github.com/user-attachments/assets/9efacbe0-696a-4893-9e0a-123cc0fbeea4" />
