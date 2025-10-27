@@ -2,7 +2,7 @@
 BOM
 ---
 
-Bill of Materials Example (Table)
+**Bill of Materials Example (Table)**
 
 | Line # | Component Name                     | Manufacturer Part #  | Digi-Key Part #             | Qty |  Unit Cost |  Ext. Cost | Link                                                                                                                                                                                     |
 | :----: | ---------------------------------- | -------------------- | --------------------------- | :-: | :--------: | :--------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -14,6 +14,7 @@ Bill of Materials Example (Table)
 
 
 
-Bill of Materials (Image)
+**Bill of Materials (Image)**
 
 <img width="942" height="193" alt="image" src="https://github.com/user-attachments/assets/50026dc3-65c7-40b7-b5cd-f2bf226b806e" />
+Figure 2: Bill fo Materials as a screenshot 
