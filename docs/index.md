@@ -17,10 +17,7 @@ Dr.Nichols<br>
 </center>
 
 ##  Introduction
-> This will be updated as part of the preparation for the External Review.<br>
->    * This needs to be updated to reflect a team introduction.<br>
->    * Content should also help an unfamiliar reader navigate to areas of interest.
-
+The Door Sensor System Project welcomes you to its website. The website presents the engineering development of a dependable door monitoring system which uses precise magnetic detection to track door positions while operating at minimal power levels. The system combines a PIC microcontroller with magnetic sensing and an H-Bridge-controlled actuator under a defined power budget and separate PCB modules. The website presents all stages of design development through block diagrams and component choices and schematics and firmware design and testing procedures.
 
 ## Team Members Datasheet links
 
