@@ -9,13 +9,13 @@
       
       
       
-        <link rel="canonical" href="https://embedded-systems-design.github.io/EGR304TeamTemplate/02%20Component%20Selection/">
+        <link rel="canonical" href="https://embedded-systems-design.github.io/EGR304TeamTemplate/-team-block-diagram/">
       
       
-        <link rel="prev" href="../01%20Block%20Diagram/">
+        <link rel="prev" href="..">
       
       
-        <link rel="next" href="../04%20BOM/">
+        <link rel="next" href="../01%20Block%20Diagram/">
       
       
       <link rel="icon" href="../static/logo304.png">
@@ -26,7 +26,7 @@
 
     
       
-        <title>02 Component Selection - EGR304 Team Report Template</title>
+        <title>Block Diagram - EGR304 Team Report Template</title>
       
     
     
@@ -90,7 +90,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#comeponent-selection-example" class="md-skip">
+        <a href="#introduction" class="md-skip">
           Skip to content
         </a>
       
@@ -125,7 +125,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              02 Component Selection
+              Block Diagram
             
           </span>
         </div>
@@ -215,9 +215,11 @@
         
   
   
+    
   
-    <li class="md-tabs__item">
-      <a href="../-team-block-diagram/" class="md-tabs__link">
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
         
   
     
@@ -249,11 +251,9 @@
         
   
   
-    
   
-  
-    <li class="md-tabs__item md-tabs__item--active">
-      <a href="./" class="md-tabs__link">
+    <li class="md-tabs__item">
+      <a href="../02%20Component%20Selection/" class="md-tabs__link">
         
   
     
@@ -410,10 +410,28 @@
       
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../-team-block-diagram/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Block Diagram
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -422,6 +440,162 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introduction
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#research-question" class="md-nav__link">
+    <span class="md-ellipsis">
+      Research Question
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#images" class="md-nav__link">
+    <span class="md-ellipsis">
+      Images
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Images">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#h-bridge-motor-driver" class="md-nav__link">
+    <span class="md-ellipsis">
+      H-Bridge (Motor Driver)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#power-budget" class="md-nav__link">
+    <span class="md-ellipsis">
+      Power Budget
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Power Budget">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#section-a-loads-worst-case" class="md-nav__link">
+    <span class="md-ellipsis">
+      Section A – Loads (worst case)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#section-b-rails-with-25-margin" class="md-nav__link">
+    <span class="md-ellipsis">
+      Section B – Rails with +25% margin
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#section-c-regulator-5-v" class="md-nav__link">
+    <span class="md-ellipsis">
+      Section C – Regulator (5 V)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#section-d-external-power-source" class="md-nav__link">
+    <span class="md-ellipsis">
+      Section D – External Power Source
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#section-e-battery-optional" class="md-nav__link">
+    <span class="md-ellipsis">
+      Section E – Battery (optional)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#results" class="md-nav__link">
+    <span class="md-ellipsis">
+      Results
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#conclusions-and-future-work" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conclusions and Future Work
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#external-links" class="md-nav__link">
+    <span class="md-ellipsis">
+      External Links
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      References
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -450,28 +624,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    02 Component Selection
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../02%20Component%20Selection/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -480,33 +636,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#comeponent-selection-example" class="md-nav__link">
-    <span class="md-ellipsis">
-      Comeponent Selection Example
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -652,11 +781,140 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#comeponent-selection-example" class="md-nav__link">
+  <a href="#introduction" class="md-nav__link">
     <span class="md-ellipsis">
-      Comeponent Selection Example
+      Introduction
     </span>
   </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#research-question" class="md-nav__link">
+    <span class="md-ellipsis">
+      Research Question
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#images" class="md-nav__link">
+    <span class="md-ellipsis">
+      Images
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Images">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#h-bridge-motor-driver" class="md-nav__link">
+    <span class="md-ellipsis">
+      H-Bridge (Motor Driver)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#power-budget" class="md-nav__link">
+    <span class="md-ellipsis">
+      Power Budget
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Power Budget">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#section-a-loads-worst-case" class="md-nav__link">
+    <span class="md-ellipsis">
+      Section A – Loads (worst case)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#section-b-rails-with-25-margin" class="md-nav__link">
+    <span class="md-ellipsis">
+      Section B – Rails with +25% margin
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#section-c-regulator-5-v" class="md-nav__link">
+    <span class="md-ellipsis">
+      Section C – Regulator (5 V)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#section-d-external-power-source" class="md-nav__link">
+    <span class="md-ellipsis">
+      Section D – External Power Source
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#section-e-battery-optional" class="md-nav__link">
+    <span class="md-ellipsis">
+      Section E – Battery (optional)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#results" class="md-nav__link">
+    <span class="md-ellipsis">
+      Results
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#conclusions-and-future-work" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conclusions and Future Work
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#external-links" class="md-nav__link">
+    <span class="md-ellipsis">
+      External Links
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      References
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -675,7 +933,7 @@
                   
 
   
-    <a href="https://github.com/embedded-systems-design/EGR304TeamTemplate/edit/main/docs/02 Component Selection.md" title="Edit this page" class="md-content__button md-icon">
+    <a href="https://github.com/embedded-systems-design/EGR304TeamTemplate/edit/main/docs/-team-block-diagram.md" title="Edit this page" class="md-content__button md-icon">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4v-2m10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1 2.1 2.1Z"></path></svg>
     </a>
@@ -683,11 +941,23 @@
   
 
 
-  <h1>02 Component Selection</h1>
+  <h1>Block Diagram</h1>
 
-<hr>
-<h2 id="comeponent-selection-example">Comeponent Selection Example</h2>
-<p>H-Bridge (Motor Driver)</p>
+<h2 id="introduction">Introduction</h2>
+<p>The PCB board functions as a motor controller system that operates a DC motor through a PIC18F57Q43 Curiosity Nano microcontroller. The H-Bridge component FAN8100N receives motor control signals from the microcontroller to operate the M1N10FB11G motor. The microcontroller operates the motor through digital signals sent from pins RA1 and RD0 and RD1.</p>
+<p>The board features an input connector which enables future sensor integration and digital and analog signal reception. The PCB serves as a basic solution for embedded system developers to evaluate and manage motor operations through its straightforward design.</p>
+<h2 id="research-question">Research Question</h2>
+<ul>
+<li>Bullet Point 1</li>
+<li>Bullet Point 2</li>
+<li>Bullet Point 3</li>
+</ul>
+<h2 id="images">Images</h2>
+<p>[PCB Board]</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/fb557ad8-a2e5-4c17-b2f1-60cf27dbe371" data-desc-position="bottom"><img width="572" height="416" alt="image" src="https://github.com/user-attachments/assets/fb557ad8-a2e5-4c17-b2f1-60cf27dbe371"></a></p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/9efacbe0-696a-4893-9e0a-123cc0fbeea4" data-desc-position="bottom"><img width="2190" height="1512" alt="image" src="https://github.com/user-attachments/assets/9efacbe0-696a-4893-9e0a-123cc0fbeea4"></a>
+<strong>Figure 2:</strong> Early PCB working design</p>
+<h3 id="h-bridge-motor-driver">H-Bridge (Motor Driver)</h3>
 <table>
 <thead>
 <tr>
@@ -851,12 +1121,128 @@
 </table>
 <p><strong>Final Choice:</strong> 12 V, ≥2 A Wall Adapter<br>
 <strong>Rationale:</strong> Covers motor stall current with 25% system margin and keeps the lab setup simple and safe.</p>
+<h3 id="power-budget">Power Budget</h3>
+<p>This budget lists worst-case current for each device, groups them by rail, and adds a 25% safety margin.</p>
+<h4 id="section-a-loads-worst-case">Section A – Loads (worst case)</h4>
+<table>
+<thead>
+<tr>
+<th>Device / Subsystem</th>
+<th style="text-align: right;">Voltage (V)</th>
+<th style="text-align: right;">Max Current Each (mA)</th>
+<th style="text-align: right;">Qty</th>
+<th style="text-align: right;">Total (mA)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PIC18F57Q43 Curiosity Nano</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">50</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">50</td>
+</tr>
+<tr>
+<td>H-Bridge logic (FAN8100N)</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">20</td>
+</tr>
+<tr>
+<td>Peripherals / LEDs / misc.</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">25</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">25</td>
+</tr>
+<tr>
+<td><strong>DC Motor (stall)</strong></td>
+<td style="text-align: right;"><strong>12</strong></td>
+<td style="text-align: right;"><strong>2000</strong></td>
+<td style="text-align: right;"><strong>1</strong></td>
+<td style="text-align: right;"><strong>2000</strong></td>
+</tr>
+<tr>
+<td><strong>Totals</strong></td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;"><strong>2095</strong></td>
+</tr>
+</tbody>
+</table>
+<h4 id="section-b-rails-with-25-margin">Section B – Rails with +25% margin</h4>
+<table>
+<thead>
+<tr>
+<th>Rail</th>
+<th style="text-align: right;">Voltage</th>
+<th style="text-align: right;">Sum of Loads (mA)</th>
+<th style="text-align: right;">+25% Margin (mA)</th>
+<th style="text-align: right;"><strong>Required Capacity</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Logic_5V</strong></td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">95</td>
+<td style="text-align: right;"><strong>119</strong></td>
+<td style="text-align: right;"><strong>≥120 mA @ 5 V</strong></td>
+</tr>
+<tr>
+<td><strong>Motor_12V</strong></td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">2000</td>
+<td style="text-align: right;"><strong>2500</strong></td>
+<td style="text-align: right;"><strong>≥2.5 A @ 12 V</strong></td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>Note: The 5 V rail is generated from 12 V via a buck converter. At ~85% efficiency, 120 mA @ 5 V ≈ <strong>0.6 W</strong>, which draws about <strong>0.06 A</strong> from the 12 V source—small compared to the motor rail.</p>
+</blockquote>
+<h4 id="section-c-regulator-5-v">Section C – Regulator (5 V)</h4>
+<ul>
+<li><strong>Choice:</strong> 12 V → 5 V <strong>buck (step-down) converter</strong>, ≥<strong>2 A</strong> output, ~85–90% eff.  </li>
+<li><strong>Why:</strong> Plenty of headroom for MCU + logic and runs cool compared to a linear regulator.  </li>
+<li><strong>Note:</strong> Place 0.1 µF + 10 µF near MCU VCC, keep motor and logic grounds star-routed.</li>
+</ul>
+<h4 id="section-d-external-power-source">Section D – External Power Source</h4>
+<ul>
+<li><strong>Choice:</strong> <strong>12 V, 3 A</strong> regulated wall adapter.  </li>
+<li><strong>Why:</strong> Meets <strong>2.5 A</strong> (stall + margin) on the motor rail plus a small extra draw for the 5 V buck. 3 A gives comfortable headroom.</li>
+</ul>
+<h4 id="section-e-battery-optional">Section E – Battery (optional)</h4>
+<ul>
+<li>If using a 3S Li-ion pack, compute life with <strong>worst-case average</strong> current. For continuous stall, life is very short; use measured average instead.</li>
+</ul>
+<h3 id="results">Results</h3>
+<p>The major electrical components for the motor control system were selected, compared, and justified based on compatibility, cost, and performance. The final design uses a 12 V brushed DC motor, an H-Bridge for direction control, and a 12 V → 5 V buck converter for logic power. A power budget was also completed using the motor’s stall current and a 25% safety margin to ensure the system can be powered safely and reliably. These selections support the goal of driving the motor forward and reverse using the PIC microcontroller.</p>
+<h3 id="conclusions-and-future-work">Conclusions and Future Work</h3>
+<p>The current design provides a solid foundation for motor control using the selected parts. The next step will be improving how the motor is controlled by adding PWM for smoother and adjustable speed, along with safety features such as current limits or automatic shutoff. Over time, the system can be expanded with more advanced features to improve motion control and flexibility.</p>
+<h3 id="external-links">External Links</h3>
+<ul>
+<li><a href="https://www.microchip.com/en-us/development-tool/dm164150">PIC18F57Q43 Curiosity Nano Product Page</a></li>
+<li><a href="https://www.ti.com/">H-Bridge Information</a></li>
+<li><a href="https://www.digikey.com/">Buck Converter Information</a></li>
+</ul>
+<h3 id="references">References</h3>
+<ul>
+<li>Datasheets and product pages for the DC motor, H-Bridge, and buck converter</li>
+<li>PIC18F57Q43 Curiosity Nano documentation</li>
+<li>Power budget reference material from class</li>
+</ul>
 
 
 
 
 
 
+
+  
+  
 
 
 
@@ -886,7 +1272,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Footer">
         
           
-          <a href="../01%20Block%20Diagram/" class="md-footer__link md-footer__link--prev" aria-label="Previous: 01 Block Diagram">
+          <a href=".." class="md-footer__link md-footer__link--prev" aria-label="Previous: Home">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
@@ -896,20 +1282,20 @@
                 Previous
               </span>
               <div class="md-ellipsis">
-                01 Block Diagram
+                Home
               </div>
             </div>
           </a>
         
         
           
-          <a href="../04%20BOM/" class="md-footer__link md-footer__link--next" aria-label="Next: Product Requirements">
+          <a href="../01%20Block%20Diagram/" class="md-footer__link md-footer__link--next" aria-label="Next: 01 Block Diagram">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Product Requirements
+                01 Block Diagram
               </div>
             </div>
             <div class="md-footer__button md-icon">
