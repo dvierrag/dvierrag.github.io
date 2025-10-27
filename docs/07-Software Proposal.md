@@ -1,6 +1,6 @@
----
-Power Budget
 
+Power Budget
+---
 
 **Overview**
 
