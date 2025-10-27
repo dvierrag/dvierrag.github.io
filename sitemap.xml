@@ -6,6 +6,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://embedded-systems-design.github.io/EGR304TeamTemplate/01%20Block%20Diagram/</loc>
+         <lastmod>2025-10-27</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://embedded-systems-design.github.io/EGR304TeamTemplate/03-User-Needs-and%20Benchmarking/</loc>
          <lastmod>2025-10-27</lastmod>
          <changefreq>daily</changefreq>
@@ -27,11 +32,6 @@
     </url>
     <url>
          <loc>https://embedded-systems-design.github.io/EGR304TeamTemplate/07-Software%20Proposal/</loc>
-         <lastmod>2025-10-27</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://embedded-systems-design.github.io/EGR304TeamTemplate/Block%20Diagram/</loc>
          <lastmod>2025-10-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
