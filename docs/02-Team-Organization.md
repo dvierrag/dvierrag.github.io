@@ -1,10 +1,8 @@
 ---
-Overview
-## Introduction
 
-The PCB board functions as a motor controller system that operates a DC motor through a PIC18F57Q43 Curiosity Nano microcontroller. The H-Bridge component FAN8100N receives motor control signals from the microcontroller to operate the M1N10FB11G motor. The microcontroller operates the motor through digital signals sent from pins RA1 and RD0 and RD1.
+## Overview
 
-The board features an input connector which enables future sensor integration and digital and analog signal reception. The PCB serves as a basic solution for embedded system developers to evaluate and manage motor operations through its straightforward design.
+A block diagram presents system components through basic visual representations which demonstrate their operational relationships. The diagram presents the essential system elements together with their signal and power transmission paths without showing detailed technical information. The diagram helps our team maintain organization while we develop our design and understand the sequential relationships between system components. The block diagram enables us to present our ideas effectively while improving team collaboration and preventing misunderstandings before we start creating detailed schematics and wiring and coding for our team project.
 
 
 Individual Block Diagram
