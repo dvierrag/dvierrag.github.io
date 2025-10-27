@@ -2,6 +2,8 @@
 BOM
 ---
 
+Bill of Materials Example (Table)
+
 | Line # | Component Name                     | Manufacturer Part #  | Digi-Key Part #             | Qty |  Unit Cost |  Ext. Cost | Link                                                                                                                                                                                     |
 | :----: | ---------------------------------- | -------------------- | --------------------------- | :-: | :--------: | :--------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 |    1   | DC Motor                           | **M1N10FB11G**       | **942-M1N10FB11G-ND**       |  1  |  **$3.19** |  **$3.19** | [https://www.digikey.com/en/products/detail/nmb-technologies-corporation/M1N10FB11G/2417078](https://www.digikey.com/en/products/detail/nmb-technologies-corporation/M1N10FB11G/2417078) |
@@ -12,6 +14,6 @@ BOM
 
 
 
-
+Bill of Materials (Image)
 
 <img width="942" height="193" alt="image" src="https://github.com/user-attachments/assets/50026dc3-65c7-40b7-b5cd-f2bf226b806e" />
