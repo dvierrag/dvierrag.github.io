@@ -33,7 +33,8 @@ Voltage Regulator Selection (5 V Logic Rail)
 | --- | --- | --- | --- | --- | --- |
 | Option 1: 12 V → 5 V Buck Module (≥2 A) |<img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/cefafcca-4e0f-42ec-9975-3cc8fbb94c14" />| [Buck module](https://www.digikey.com/en/products/detail/envistia-mall/F23J5V3A4S/26420424) | $5.89 |Handles high current, small size, stays cool|  Switching noise, needs filter cap |
 | Option 2: LM7805 Linear Regulator |<img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/88700506-9973-49a7-8e36-2de037592745" />| [LM7805](https://www.digikey.com/en/products/detail/texas-instruments/UA78M05CKCS/521616?gclsrc=aw.ds&gad_source=1&gad_campaignid=20228387720&gclid=Cj0KCQjw9czHBhCyARIsAFZlN8SMmcF35ESDpeZq5G1PZZSyAO0Rm_lPFeMZ5EiNADKQGwQLSUrgsgEaArRVEALw_wcB) | $4.20| Simple wiring, low noise |  Wastes heat, not good for 12→5 V drops |
-| Option 3: Use Curiosity Nano USB 5 V |<img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/cad168e0-ce7b-41ef-9352-1284d2da1bb1" />| [Board ref](https://www.digikey.com/en/products/detail/microchip-technology/EV53Z50A/16889562?gclsrc=aw.ds&gad_source=1&gad_campaignid=20243136172&gclid=Cj0KCQjw9czHBhCyARIsAFZlN8QsSYwf7xxqaQhg8AugncSBybDSFBbLQ3fk_YeqYXxtskF4rt-LRHwaAnpUEALw_wcB) | $0 |  No extra parts, easy to use |  Low current limit, not good for motor systems |
+| Option 3: LM2940CT-5.0/NOPB |<img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/c8b2b275-68bc-4a01-8d61-3217cbf5863e" />
+| [Board ref](https://www.digikey.com/en/products/detail/texas-instruments/LM2940CT-5-0-NOPB/32575) | $1.94 |  No extra parts, easy to use |  Low current limit, not good for motor systems |
 
 **Final Choice:** 12 V → 5 V Buck Converter (≥2 A)  
 **Rationale:** Supplies MCU + logic with margin while avoiding heat of a linear regulator when stepping down from 12 V.
