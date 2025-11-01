@@ -23,7 +23,8 @@ DC Motor Selection
 | Option 3: 12 V Generic DC Motor (no gearbox) |<img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/e0264dbf-f6b2-42f6-9406-00820b16750d" />| [Generic 12 V DC motor](https://www.digikey.com/en/products/detail/olimex-ltd/MG-12V-12RPM/22157942?gclsrc=aw.ds&gad_source=1&gad_campaignid=20243136172&gclid=Cj0KCQjw9czHBhCyARIsAFZlN8T4poKcN0nC5ODQuPEy_bPangy6zy0kYFOLvjY0nSOWQ0ljkTPVw4EaAopSEALw_wcB) | $5.86 | Cheap, easy to find |  Torque varies, no feedback |
 
 **Final Choice:** M1N10FB11G  
-**Rationale:** Fits the 12 V system and mechanical space; provides adequate speed/torque for baseline demo; simplest electrical interface with the chosen H-bridge.
+**Rationale:** Option 2 — 12 V gearmotor with encoder
+Rationale: Provides the torque margin we need for a reliable door actuation and gives encoder feedback for speed/position detection (jam detect, soft-start/stop). Integrates cleanly with our chosen H-bridge and MCU for closed-loop control.
 
 
 
