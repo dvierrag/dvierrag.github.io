@@ -9,6 +9,7 @@ The system uses a 7805 linear regulator to convert the +9 V input into +5 V powe
 
 <img width="2126" height="1480" alt="image" src="https://github.com/user-attachments/assets/51b43c68-32ca-47d0-b6b7-d434c571f7bd" />
 **Figure** 1* : Current Schematic
+[DVG.pdf](https://github.com/user-attachments/files/23864985/DVG.pdf)
 
 
 
