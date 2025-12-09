@@ -19,7 +19,7 @@ Here is my Schematic:[Schematic.zip](https://github.com/user-attachments/files/2
 
 
 
-Here is my Zip to the file:[Schematic.zip/PCB Design](https://github.com/user-attachments/files/24044975/Schematic.zip)
+Here is my Zip to the file:[Schematic.zip](https://github.com/user-attachments/files/24044975/Schematic.zip)
 
 
 
