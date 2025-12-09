@@ -15,11 +15,11 @@ The schematic presents a complete system which connects a Nano board to a DC mot
 
 
 
-Here is my Schematic PDF:[DVG.pdf](https://github.com/user-attachments/files/24044994/DVG.pdf)
+Here is my Schematic PDF:[Here](https://github.com/user-attachments/files/24044994/DVG.pdf)
 
 
 
-Here is my Zip to the file:[Schematic.zip](https://github.com/user-attachments/files/24044975/Schematic.zip)
+Here is my Zip to the file:[Here](https://github.com/user-attachments/files/24044975/Schematic.zip)
 
 
 
