@@ -11,7 +11,7 @@ The schematic presents a complete system which connects a Nano board to a DC mot
 <img width="1957" height="1389" alt="image" src="https://github.com/user-attachments/assets/bae0f4ff-8201-4e6a-b0ac-51fd115b4f45" />
 
 
-**Figure** 1* : Current Schematic
+**Figure** 1 : Current Schematic
 
 
 
