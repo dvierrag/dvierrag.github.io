@@ -41,6 +41,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://embedded-systems-design.github.io/EGR304TeamTemplate/08%20HardwareV2.0/</loc>
+         <lastmod>2025-12-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://embedded-systems-design.github.io/EGR304TeamTemplate/Appendix/</loc>
          <lastmod>2025-12-09</lastmod>
          <changefreq>daily</changefreq>
