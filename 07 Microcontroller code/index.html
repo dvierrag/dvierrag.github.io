@@ -89,6 +89,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#include-mcc_generated_filessystemsystemh" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -551,6 +556,8 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -639,6 +646,8 @@
   
   
   
+    
+  
   
 </nav>
                   </div>
@@ -661,9 +670,69 @@
   
 
 
-  <h1>07 Microcontroller code</h1>
+<p><strong>Overview</strong></p>
+<p>The microcontroller code establishes both the input pins for door sensor detection and the output pins which operate the H bridge driver. The program uses the configured pins to monitor sensor states which determine motor operation. The program sends appropriate logic signals to the H bridge for motor rotation when the door status changes. The program includes a brief delay to enhance reading stability while maintaining continuous operation for immediate microcontroller responses. The system operates as a basic control mechanism which monitors sensor data to activate motor movement through real-time input detection.</p>
+<h1 id="include-mcc_generated_filessystemsystemh">include "mcc_generated_files/system/system.h"</h1>
+<p>/<em>
+    Main application
+</em>/</p>
+<p>// Simple DC motor demo for PIC18F57Q43 and DRV8871
+// IN1 on RF6
+// IN2 on RF5</p>
+<h1 id="include">include <xc.h></xc.h></h1>
+<h1 id="define-_xtal_freq-64000000u">define _XTAL_FREQ 64000000U</h1>
+<p>void init_pins(void)
+{
+    // make RF5 and RF6 digital
+    ANSELFbits.ANSELF5 = 0;
+    ANSELFbits.ANSELF6 = 0;</p>
+<pre><code>// set RF5 and RF6 as outputs
+TRISFbits.TRISF5 = 0;
+TRISFbits.TRISF6 = 0;
 
+// motor off at start
+LATFbits.LATF5 = 0;
+LATFbits.LATF6 = 0;
+</code></pre>
+<p>}</p>
+<p>void forward(void)
+{
+    // IN1 high, IN2 low
+    LATFbits.LATF6 = 1;
+    LATFbits.LATF5 = 0;
+}</p>
+<p>void reverse(void)
+{
+    // IN1 low, IN2 high
+    LATFbits.LATF6 = 0;
+    LATFbits.LATF5 = 1;
+}</p>
+<p>void brake(void)
+{
+    // both low
+    LATFbits.LATF6 = 0;
+    LATFbits.LATF5 = 0;
+}</p>
+<p>void main(void)
+{
+    init_pins();</p>
+<pre><code>while(1)
+{
+    forward();         // run forward
+    __delay_ms(3000);  // three seconds
 
+    brake();           // stop
+    __delay_ms(1000);  // one second
+
+    reverse();         // run reverse
+    __delay_ms(3000);
+
+    brake();           // stop
+    __delay_ms(1000);
+}
+</code></pre>
+<p>}</p>
+<p>Here is the zip file with the code can be downloaded<a href="https://github.com/user-attachments/files/24045241/PCB.zip">here</a></p>
 
 
 
