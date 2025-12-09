@@ -5,16 +5,24 @@ The microcontroller code establishes both the input pins for door sensor detecti
 
 
 
-// Simple DC motor demo for PIC18F57Q43 and DRV8871
-// IN1 on RF6
-// IN2 on RF5
+    #include "mcc_generated_files/system/system.h"
 
-#include <xc.h>
+    /*
 
-#define _XTAL_FREQ 32000000UL
+    Main application
+    */
 
-void init_pins(void)
-{
+     // Simple DC motor demo for PIC18F57Q43 and DRV8871
+    // IN1 on RF6
+    // IN2 on RF5
+
+    #include <xc.h>
+
+    #define _XTAL_FREQ 64000000U
+
+    void init_pins(void)
+    {
+
     // make RF5 and RF6 digital
     ANSELFbits.ANSELF5 = 0;
     ANSELFbits.ANSELF6 = 0;
@@ -22,36 +30,37 @@ void init_pins(void)
     // set RF5 and RF6 as outputs
     TRISFbits.TRISF5 = 0;
     TRISFbits.TRISF6 = 0;
+    
 
     // motor off at start
     LATFbits.LATF5 = 0;
     LATFbits.LATF6 = 0;
-}
+    }
 
-void forward(void)
-{
-    // IN1 high, IN2 low
-    LATFbits.LATF6 = 1;
-    LATFbits.LATF5 = 0;
-}
-
-void reverse(void)
-{
-    // IN1 low, IN2 high
-    LATFbits.LATF6 = 0;
-    LATFbits.LATF5 = 1;
-}
-
-void brake(void)
-{
-    // both low
-    LATFbits.LATF6 = 0;
-    LATFbits.LATF5 = 0;
-}
-
-void main(void)
-{
-    init_pins();
+    void forward(void)
+    {
+        // IN1 high, IN2 low
+        LATFbits.LATF6 = 1;
+        LATFbits.LATF5 = 0;
+    }
+    
+    void reverse(void)
+    {
+        // IN1 low, IN2 high
+        LATFbits.LATF6 = 0;
+        LATFbits.LATF5 = 1;
+    }
+    
+    void brake(void)
+    {
+        // both low
+        LATFbits.LATF6 = 0;
+        LATFbits.LATF5 = 0;
+    }
+    
+    void main(void)
+    {
+        init_pins();
 
     while(1)
     {
@@ -66,8 +75,9 @@ void main(void)
 
         brake();           // stop
         __delay_ms(1000);
+        }
     }
-}
+
 
 
 
