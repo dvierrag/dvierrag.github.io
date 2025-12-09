@@ -5,23 +5,13 @@ The microcontroller code establishes both the input pins for door sensor detecti
 
 
 
-
-
-
-
-#include "mcc_generated_files/system/system.h"
-
-/*
-    Main application
-*/
-
 // Simple DC motor demo for PIC18F57Q43 and DRV8871
 // IN1 on RF6
 // IN2 on RF5
 
 #include <xc.h>
 
-#define _XTAL_FREQ 64000000U
+#define _XTAL_FREQ 32000000UL
 
 void init_pins(void)
 {
@@ -78,5 +68,9 @@ void main(void)
         __delay_ms(1000);
     }
 }
+
+
+
+
 
 Here is the zip file with the code can be downloaded[here](https://github.com/user-attachments/files/24045241/PCB.zip)
